@@ -1,4 +1,4 @@
-# [Dev Stack Builder]
+# Dev Stack Builder
 "Build your ideal development stack — pick the right frontend, backend, database, and tooling for your project."
 
 ## 📖 Description
