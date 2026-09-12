@@ -1,11 +1,11 @@
 # Dev Stack Builder
 "Build your ideal development stack — pick the right frontend, backend, database, and tooling for your project."
 
-## 📖 Description
+## Description
 
 [Dev Stack Builder] is a React + TypeScript application that lets users browse a list of technologies and build their own custom tech stack by selecting and deselecting items. Selected technologies are tracked in state and displayed as an interactive list that users can add to or remove from at any time.
 
-## 🛠️ Built With
+## Built With
 
 - **React** – Component-based UI library
 - **TypeScript** – Static typing for safer, more predictable code
@@ -13,7 +13,7 @@
 - **Tailwind**
 - **Vite**
 - 
-## ✨ Features
+## Features
 
 1. **Toggle Selection** – Click any technology to add it to your stack, or click it again to remove it.
 2. **Live Stack Preview** – Instantly see your currently selected technologies update as you pick them.
@@ -21,16 +21,18 @@
 
 ---
 
-## ❓ React Concepts — Q&A
+## React Concepts — Q&A
 
 **1. What is JSX, and why is it used in React?**
-JSX is a syntax extension that lets us write HTML-like code directly inside JavaScript/TypeScript files. It's used because it makes it much easier to describe what the UI should look like — we can mix markup and logic together instead of building elements manually with JavaScript functions.
+JSX lets us write HTML inside JavaScript/TypeScript files. It's used because it makes it much easier to describe
 
 **2. What is the difference between props and state?**
-Props are data passed *into* a component from its parent, and the component can't change them itself. State is data that a component manages *internally* and can update over time. Basically: props come from outside, state lives inside.
+Props are data passed into a component from its parent, and the component can't change them itself. 
+State is data that a component manages internally and can update over time. 
+Basically props come from outside, state lives inside.
 
-**3. What does the `useState` hook do, and where did you use it in this project?**
-`useState` lets a component hold and update its own data, and re-renders the component whenever that data changes. In this project, it's used to track the list of selected technologies:
+**3. What does the useState hook do, and where did you use it in this project?**
+- useState lets a component hold and update its own data, and re-renders the component whenever that data changes. In this project, it's used to track the list of selected technologies:
 ```tsx
 const [selectedStack, setSelectedStack] = useState<Technology[]>([]);
 ```
