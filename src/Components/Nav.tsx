@@ -6,13 +6,13 @@ const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="my-3 md:my-6 sticky top-0 z-100 py-4 bg-white">
+        <nav className="my-3 md:my-6 sticky top-0 z-100 py-2 bg-white">
             <div className="flex justify-between items-center container mx-auto px-4">
-                <img className='w-28 md:w-40' src={Logo} alt="Logo" />
+                <img className='w-28 md:w-30' src={Logo} alt="Logo" />
 
                 {/* Desktop links */}
-                <ul className='hidden lg:flex gap-6 items-center text-bolder text-gray-500'>
-                    <li className='text-pink-700'>Home</li>
+                <ul className='hidden lg:flex gap-6 items-center text-bolder text-gray-700'>
+                    <li className='text-pink-700 text-bold'>Home</li>
                     <li>Technologies</li>
                     <li>Projects</li>
                     <li>About</li>
