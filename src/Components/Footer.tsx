@@ -1,3 +1,4 @@
+import Logo from '../assets/logo-text.png'
 const Footer = () => {
     return (
         <footer>
@@ -5,7 +6,7 @@ const Footer = () => {
             <div className='mt-12 md:mt-20 mb-12 md:mb-20 border-t border-base-300/100' />
             <section className='flex flex-col md:flex-row justify-between gap-10 container mx-auto mb-10 text-sm px-4'>
                 <div className='max-w-sm'>
-                    <img className='w-24 md:w-30 mb-4' src="/src/assets/logo-text.png" alt="logo" />
+                    <img className='w-24 md:w-30 mb-4' src={Logo} alt="logo" />
                     <h4 className='mb-4 text-gray-500'>
                         Curated tools, technologies, and resources for developers building modern tools
                     </h4>
