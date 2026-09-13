@@ -51,6 +51,7 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                                     : 'bg-base-100 border border-transparent'
                                 }`}
                         >
+            {/* Card - Image and tag */}
                             <div className='flex justify-between mx-3 mt-4'>
                                 <figure className='w-10'>
                                     <img src={technology.logo} alt="Logo" />
@@ -60,6 +61,7 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                                 </h4>
                             </div>
 
+            {/*Card - body */}
                             <div className="card-body">
                                 <h2 className="card-title text-base sm:text-lg font-bold">{technology.name}</h2>
                                 <p className='card-description text-[12px] text-gray-500'>{technology.description}</p>
@@ -73,7 +75,7 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                                     <FaStar className="text-yellow-400" /> {technology.rating}
                                 </h4>
                             </div>
-
+            {/*Card - Add to Stack */}
                             <div className="mx-3 mb-4">
                                 <button
                                     onClick={() => toggleStack(technology)}
@@ -90,6 +92,8 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                 })}
             </div>
 
+
+{/*Your Stack Section starts here */}
             <div className="w-full lg:w-60 shrink-0">
                 <div className="card bg-base-100 shadow-sm border border-gray-200 lg:sticky lg:top-24">
                     <div className="card-body">
