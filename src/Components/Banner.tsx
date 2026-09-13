@@ -2,7 +2,7 @@ import bannerLogo from "../assets/banner-stack.png"
 
 const Banner = () => {
     return (
-        <section className="flex flex-col-reverse lg:flex-row my-6 container mx-auto items-center gap-10 mt-10 lg:mt-20 mb-10 lg:mb-20 px-4">
+        <section className="flex flex-col-reverse lg:flex-row my-6 container mx-auto items-center gap-10 mt-10 lg:mt-10 mb-10 lg:mb-10 px-4">
             <div className='mb-6 text-center lg:text-left'>
                 <h2 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl'>Build Your Ideal</h2>
                 <h2 className='font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl mb-4 bg-linear-to-r from-orange-500 via-pink-700 to-violet-600 bg-clip-text text-transparent'>

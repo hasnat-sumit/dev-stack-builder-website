@@ -12,13 +12,13 @@ const Technologies = ({ technologiesPromise }: TechnologyProps) => {
     return (
         <div className='container mx-auto px-4'>
             <div className='mb-6 text-center md:text-left'>
-                <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[45px]">
+                <h2 className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-[35px]">
                     Explore the{" "}
                     <span className="bg-linear-to-r from-pink-700 to-violet-600 bg-clip-text text-transparent">
                         Technologies
                     </span>
                 </h2>
-                <p className='text-gray-500 text-base sm:text-lg md:text-xl mb-6 md:mb-10'>
+                <p className='text-gray-500 text-base sm:text-md md:text-lg mt-2 mb-6 md:mb-10'>
                     Pick one technology per category to build your ideal stack
                 </p>
             </div>

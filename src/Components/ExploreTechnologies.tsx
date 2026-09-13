@@ -49,14 +49,14 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                             className={`card bg-base-100 w-full shadow-sm border border-gray-200 transition-all ${selected
                                     ? 'bg-green-50 border-2 border-green-400'
                                     : 'bg-base-100 border border-transparent'
-                                }`}
-                        >
+                                }`}>
+                                    
             {/* Card - Image and tag */}
                             <div className='flex justify-between mx-3 mt-4'>
                                 <figure className='w-10'>
                                     <img src={technology.logo} alt="Logo" />
                                 </figure>
-                                <h4 className={`rounded-full px-3 sm:px-4 py-2.5 sm:py-2 text-xs sm:text-sm font-sm ${tagColorMap[technology.tag] ?? defaultTagColor}`}>
+                                <h4 className={`rounded-full px-4 sm:px-5 py-1.5 text-xs sm:text-sm font-sm ${tagColorMap[technology.tag] ?? defaultTagColor}`}>
                                     {technology.tag}
                                 </h4>
                             </div>
@@ -75,6 +75,7 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                                     <FaStar className="text-yellow-400" /> {technology.rating}
                                 </h4>
                             </div>
+                            
             {/*Card - Add to Stack */}
                             <div className="mx-3 mb-4">
                                 <button
