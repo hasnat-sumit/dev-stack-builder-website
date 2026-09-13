@@ -56,7 +56,7 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                                 <figure className='w-10'>
                                     <img src={technology.logo} alt="Logo" />
                                 </figure>
-                                <h4 className={`rounded-full px-3 sm:px-4 py-1.5 sm:py-2 text-xs sm:text-sm font-sm ${tagColorMap[technology.tag] ?? defaultTagColor}`}>
+                                <h4 className={`rounded-full px-3 sm:px-4 py-2.5 sm:py-2 text-xs sm:text-sm font-sm ${tagColorMap[technology.tag] ?? defaultTagColor}`}>
                                     {technology.tag}
                                 </h4>
                             </div>

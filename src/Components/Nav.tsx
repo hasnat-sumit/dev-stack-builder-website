@@ -6,7 +6,7 @@ const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="my-4 md:my-6 sticky top-0 z-100 py-4 bg-white">
+        <nav className="my-3 md:my-6 sticky top-0 z-100 py-4 bg-white">
             <div className="flex justify-between items-center container mx-auto px-4">
                 <img className='w-28 md:w-40' src={Logo} alt="Logo" />
 
