@@ -50,13 +50,13 @@ const ExploreTechnologies = ({ technologies }: { technologies: Technology[] }) =
                                     ? 'bg-green-50 border-2 border-green-400'
                                     : 'bg-base-100 border border-transparent'
                                 }`}>
-                                    
+
             {/* Card - Image and tag */}
                             <div className='flex justify-between mx-3 mt-4'>
                                 <figure className='w-10'>
                                     <img src={technology.logo} alt="Logo" />
                                 </figure>
-                                <h4 className={`rounded-full px-4 sm:px-5 py-1.5 text-xs sm:text-sm font-sm ${tagColorMap[technology.tag] ?? defaultTagColor}`}>
+                                <h4 className={`rounded-full px-4 sm:px-5 py-2.5 sm:py-2.5 text-xs sm:text-sm font-sm ${tagColorMap[technology.tag] ?? defaultTagColor}`}>
                                     {technology.tag}
                                 </h4>
                             </div>

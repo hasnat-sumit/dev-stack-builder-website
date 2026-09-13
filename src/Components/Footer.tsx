@@ -1,7 +1,8 @@
 const Footer = () => {
     return (
         <footer>
-            <div className='divider mt-12 md:mt-20 mb-12 md:mb-20' />
+            {/* <div className='divider mt-12 md:mt-20 mb-12 md:mb-20' /> */}
+            <div className='mt-12 md:mt-20 mb-12 md:mb-20 border-t border-base-300/100' />
             <section className='flex flex-col md:flex-row justify-between gap-10 container mx-auto mb-10 text-sm px-4'>
                 <div className='max-w-sm'>
                     <img className='w-24 md:w-30 mb-4' src="/src/assets/logo-text.png" alt="logo" />
@@ -44,10 +45,10 @@ const Footer = () => {
                 </div>
             </section>
 
-            <div className='divider container mx-auto' />
+            <div className='mt-6 md:mt-10 mb-3 md:mb-6 border-t border-base-300/100 container mx-auto' />
 
             <section className='flex flex-col sm:flex-row gap-4 justify-between items-center container mx-auto mb-12 md:mb-20 text-gray-500 text-[14px] px-4 text-center'>
-                <h4>2026 Dev Stack. All rights reserved</h4>
+                <h4> © 2026 Dev Stack. All rights reserved.</h4>
 
                 <div className='flex justify-between gap-6'>
                     <h4>Privacy</h4>
